@@ -23,7 +23,7 @@ def iter():
         a = random.randint(0, 10000)
         lst.append(a)
     lst.sort()
-    print(*lst)
+    print(lst)
     x = int(input())
     print(BinSearch_iter(lst, x))
     print(timeit.timeit())

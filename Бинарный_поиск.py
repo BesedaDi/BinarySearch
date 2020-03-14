@@ -50,7 +50,7 @@ def main():
         a = random.randint(0, 10000)
         lst.append(a)
     lst.sort()
-    print(*lst)
+    print(lst)
     x = int(input())
     rec(lst, x)
     iter(lst, x)

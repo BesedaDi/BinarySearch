@@ -21,7 +21,7 @@ def rec():
         a = random.randint(0, 10000)
         lst.append(a)
     lst.sort()
-    print(*lst)
+    print(lst)
     x = int(input())
     print(BinSearch_rec(lst, x, start=0, end=None))
     print(timeit.timeit())
