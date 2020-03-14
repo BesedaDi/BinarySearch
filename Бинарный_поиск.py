@@ -47,7 +47,7 @@ def main():
 
     lst = []
     for _ in range(1000):
-        a = random.randint(0, 1000)
+        a = random.randint(0, 10000)
         lst.append(a)
     lst.sort()
     print(*lst)
